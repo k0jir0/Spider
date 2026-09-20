@@ -109,5 +109,3 @@ For a model error, inspect `runs`, then `trace RUN_ID`; startup diagnostics are 
 | [scripts](scripts) | Verified setup and real-model smoke check |
 | [docs/RESEARCH.md](docs/RESEARCH.md) | Research sources and selection rationale |
 | [docs/VERIFICATION.md](docs/VERIFICATION.md) | Observed test results and remaining limitations |
-
-The original [index.txt](index.txt) request is preserved.
