@@ -1,0 +1,2 @@
+Research and instantiate a techstack for a functioning Agentic AI stack that functions when ran, controlled through a CLI or whichever interface necessary according to your research. 
+Instantiate this project into C:\Users\Ryanv\Desktop\MCGILL\McGillSoftware\Spider folder.

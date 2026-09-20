@@ -1,0 +1,28 @@
+{
+  "name": "spider-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A local-first, bounded tool-using AI agent with a persistent CLI.",
+  "type": "module",
+  "engines": { "node": ">=22.16.0" },
+  "bin": { "spider": "dist/src/cli.js" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "pretest": "npm run build",
+    "test": "node --test \"dist/test/*.test.js\"",
+    "presmoke": "npm run build",
+    "smoke": "node scripts/smoke-local.mjs",
+    "start": "node dist/src/cli.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.0.0",
+    "@langchain/openai": "^1.0.0",
+    "commander": "^14.0.0",
+    "langchain": "^1.0.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "~5.9.0"
+  }
+}

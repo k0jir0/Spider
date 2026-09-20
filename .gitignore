@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.runtime/
+.spider/
+.env
+!.env.example
+workspace/output/
+*.log
